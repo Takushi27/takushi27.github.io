@@ -52,3 +52,28 @@
     margin-top: 20px;
     margin-bottom: 0;
 }
+@media (max-width: 768px) {
+  body {
+    text-align: center;
+  }
+  .perfil-img {
+    display: block;
+    margin: 0 auto;
+  }
+  #skills-cards {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .card {
+    width: 90%;
+  }
+  #text-menu {
+    text-align: center;
+    padding: 20px;
+  }
+  #text-menu a {
+    margin: 0 8px;
+  }
+
+}
