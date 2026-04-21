@@ -6,8 +6,8 @@
 #text-menu{
     color: rgb(44, 42, 42);
     text-align: center;
-    margin-top: 20%;
-    margin-bottom: 0;
+    width: 100%;
+    padding: 20px;
 }
 .overlay-menu{
     background-image:url('/files/mike-hindle-n73nY4TfKZ8-unsplash.jpg');
@@ -16,7 +16,11 @@
     width: 100%;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #text-menu i{
     font-size: 40px;
