@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#text-menu{
+    color: rgb(44, 42, 42);
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 0;
+}
+.overlay-menu{
+    background-image:url('/files/mike-hindle-n73nY4TfKZ8-unsplash.jpg');
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#text-menu i{
+    font-size: 40px;
+    color: rgb(32, 31, 31);
+    margin: 0 20px;
+    cursor: pointer;
+}
+#text-menu i:hover{
+    color: #6c63ff;
+}
+#text-menu a{
+    color: white;
+    text-decoration: none;
+}
+#text-menu p{
+    padding: 20px;
+    font-size: 40px;
+}
+#text-menu h1{
+    font-size: 50px;
+}
