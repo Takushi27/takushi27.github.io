@@ -5,7 +5,7 @@
     padding: 40px;
 }
 .card{
-    background-color: #f0f4ff;
+    background-color: #F8FAFC;
     border-radius: 12px;
     padding: 30px;
     width: 350px;
@@ -42,4 +42,127 @@
 .card:hover{
     transform: translateY(-10px);
     box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+
+#projects{
+    padding: 60px 40px;
+    text-align: center;
+    background-color:#F8FAFC;
+}
+#projects h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+#projects > p{
+    font-size: 18px;
+    color: #669;
+    margin: 40px;
+}
+#projects-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+.project-card{
+    background: white;
+    border-radius: 12px;
+    width: 300px;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+.project-card h3{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.project-card p{
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 16px;
+}
+.project-tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+.tag{
+    background: #e8f0fe;
+    color: #3b5bdb;
+    padding: 4px 10px;
+    font-size: 12px;
+}
+.project-links{
+    display: flex;
+    gap: 16px;
+}
+.project-links a{
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.project-links:hover{
+    color: #6c63ff;
+}
+
+
+#skills {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+#skills h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#skills > p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+#skills-grid {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skill-group {
+  background: #F8FAFC;
+  border-radius: 12px;
+  padding: 30px;
+  width: 280px;
+}
+
+.skill-group h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.skill-tags span {
+  background: white;
+  border: 0.5px solid #1c1c1d;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 14px;
+  color: #333;
 }

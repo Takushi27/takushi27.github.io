@@ -9,6 +9,9 @@
     width: 100%;
     padding: 20px;
 }
+body {
+  font-family: 'Inter', sans-serif;
+}
 .overlay-menu{
     background-image:url('../files/mike-hindle-n73nY4TfKZ8-unsplash.jpg');
     background-color: rgba(0, 0, 0, 0.6);

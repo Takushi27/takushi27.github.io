@@ -4,8 +4,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/cards.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <title>Portfólio - Adalberto</title>
 </head>
+<script src="scripts/main.js"></script>
 <body id="myperson">
   <section class="overlay-menu">
     <div id="menu">
@@ -54,13 +56,48 @@
         <p>Gerenciamento de dados com MySQL, Firebase, PostgreSQL tanto em ambientes relacionais quanto em tempo real.</p>
       </div>
   </section>
+  <section id="projects">
+    <h1>Projetos</h1>
+    <p>Alguns dos meus trabalhos recentes dos quais me orgulho.</p>
+    <div id="projects-grid"></div>
+  </section>
+ <section id="skills">
+  <h1>Habilidades & Tecnologias</h1>
+  <p>Tecnologias que uso para dar vida às ideias</p>
 
-  <h2 id="skils">Habilidades</h2>
+  <div id="skills-grid">
+    <div class="skill-group">
+      <h3>Frontend</h3>
+      <div class="skill-tags">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>React</span>
+      </div>
+    </div>
 
-  <h2 id="projects">Projetos</h2>
+    <div class="skill-group">
+      <h3>Backend</h3>
+      <div class="skill-tags">
+        <span>Python</span>
+        <span>Java</span>
+        <span>C++</span>
+        <span>Node.js</span>
+        <span>PHP</span>
+      </div>
+    </div>
 
-  <h2 id="training">Experiência / Formação</h2>
-
-  <h2 id="contact">Contato</h2>
+    <div class="skill-group">
+      <h3>Banco de Dados & Ferramentas</h3>
+      <div class="skill-tags">
+        <span>MySQL</span>
+        <span>Firebase</span>
+        <span>PostgreSQL</span>
+        <span>Docker</span>
+        <span>Git</span>
+      </div>
+    </div>
+  </div>
+</section>
 </body>
 </html>
