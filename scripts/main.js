@@ -1,5 +1,5 @@
 const username = 'Takushi27';
-const ignorar = ['Database_manipulation_in_python', 'Takushi27'];
+const ignorar = ['Takushi27', 'Database_manipulation_in_python'];
 
 fetch(`https://api.github.com/users/${username}/repos?sort=updated&per_page=6`)
   .then(res => res.json())
