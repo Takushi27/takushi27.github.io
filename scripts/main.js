@@ -14,7 +14,7 @@ fetch(`https://api.github.com/users/${username}/repos?sort=updated&per_page=6`)
         card.innerHTML = `
           <div class="project-info">
             <h3>${repo.name}</h3>
-            <p>'Sem descrição'}</p>
+            <p>'Descrição No GitHub'}</p>
             <div class="project-tags">
               ${repo.language ? `<span class="tag">${repo.language}</span>` : ''}
             </div>
